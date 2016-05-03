@@ -101,7 +101,7 @@ header label:hover {
 .internatura {
     width:100%;
     min-height: 900px;
-    background: url(picture/int.jpg);
+    background: url(img/int.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
