@@ -170,11 +170,36 @@ header label:hover {
 }
 
 .block_2 img{
-    width: 35%;
+    width: 45%;
     float: left;
     margin: 0 20px 0 0;
 }
 
 .block_2 p{
+    color: chocolate;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 50px;
+}
 
+@media (max-width: 1300px) {
+    .block_2 p{
+        font-size: 1rem;
+        font-weight: bold;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 800px) {
+    .block_2{
+        width: 100%;
+        margin: 10px auto;
+    }
+
+
+    .block_2 p{
+        font-size: 1rem;
+        font-weight: bold;
+        line-height: 30px;
+    }
 }
