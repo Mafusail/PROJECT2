@@ -248,6 +248,12 @@ header label:hover {
     background: #3276a9;
 }
 
+.wrapper .tabs .tab:hover {
+    border: 1px solid #afccff;
+    background: #86c3ff;
+}
+
+
 .tabs{
     text-align: center;
     font-weight: bold;
