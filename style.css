@@ -261,11 +261,10 @@ footer{
     margin: 20px auto 50px auto;
     height: 30px;
     font-weight: bold;
+
 }
 footer .left_footer {
-    position: absolute;
-    left: 0;
-    top: 0;
+    line-height: 30px;
 }
 
 
@@ -290,7 +289,11 @@ footer .right_footer p{
     margin: 0 20px 0 0;
 }
 
-
-.clearfix {
-    clear: both;
+@media (max-width: 1300px) {
+    footer {
+        text-align: center;
+    }
+    footer .right_footer {
+        position: relative;
+    }
 }
