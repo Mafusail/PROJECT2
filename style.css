@@ -151,17 +151,30 @@ header label:hover {
         padding: 200px 0;
     }
 
-
     .bg1 .text_na_bg1 h1{
         font-size: 3rem;
         margin: 10px;
     }
+
     .bg1 .text_na_bg1 p{
         font-size: 1rem;
         margin: 0px 20px;
     }
-
 }
 
 
 
+.block_2{
+    width: 80%;
+    margin: 50px auto;
+}
+
+.block_2 img{
+    width: 35%;
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+.block_2 p{
+
+}
