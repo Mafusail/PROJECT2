@@ -1,0 +1,167 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: url(img/background.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    font-family: "Fjalla One", sans-serif;
+}
+
+
+
+
+.bg1{
+    height: 900px;
+    width: 100%;
+    background: url(img/laptop-coffee-1940x900_35055.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #45a4ff;
+}
+
+.bg1 .text_na_bg1{
+    padding: 300px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bg1 .text_na_bg1 h1{
+    font-size: 5rem;
+    margin: 20px;
+}
+.bg1 .text_na_bg1 p{
+    font-size: 2rem;
+    margin: 0px 30px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+header {
+     margin: 0 auto;
+}
+
+.fullwrap_a{
+    position: fixed;
+    right: 25px;
+    top: 35px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+
+header .logo_nav_a {
+    top: 30px;
+    left: 60px;
+    position: fixed;
+}
+
+#btn_menu_a {
+    display: none;
+}
+
+header label {
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px solid #fff;
+    border-radius: 0 50px 50px 0;
+}
+header label:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.3);
+    color: darkgray;
+}
+
+.menu_a {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.1rem;
+
+}
+.menu_a .tabs_menu_a:hover {
+    background: rgba(78, 114, 194, 0.3);
+}
+
+.tabs_menu_a a {
+    display: block;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #45a4ff;
+}
+
+
+.tabs_menu_a a:hover {
+    color: #3276a9;
+}
+
+
+
+
+@media (max-width: 1030px) {
+    header {
+        width: 100%;
+        text-align: center !important;
+    }
+
+    header label {
+        display: block;
+        left: 0;
+        position: fixed;
+    }
+
+    .fullwrap_a{
+        left: 0;
+    }
+    .navigation_a {
+        position: absolute;
+        background: rgba(255, 255, 255, 0.3);
+        top: 50px;
+        left: -200px;
+        transition: all 0.5s;
+
+    }
+
+    .menu_a {
+        flex-direction: column;
+    }
+
+    .tabs_menu_a {
+        border-top: 1px solid #fff;
+    }
+
+    #btn_menu_a:checked ~ .navigation_a {
+        left: 0;
+    }
+
+    .bg1{
+        height: 500px;
+    }
+
+    .bg1 .text_na_bg1{
+        padding: 200px 0;
+    }
+
+
+    .bg1 .text_na_bg1 h1{
+        font-size: 3rem;
+        margin: 10px;
+    }
+    .bg1 .text_na_bg1 p{
+        font-size: 1rem;
+        margin: 0px 20px;
+    }
+
+}
+
+
+
