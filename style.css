@@ -323,11 +323,17 @@ header label:hover {
     color: chocolate;
 }
 
-.block_6 input{
-    width: 250px;
-    height: 25px;
+
+.block_6 .contact input{
     text-align: center;
 }
+
+
+
+
+
+
+
 
 
 

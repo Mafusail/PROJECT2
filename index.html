@@ -5,10 +5,12 @@
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
     <script src="js/mafusail.js"></script>
     <script src="js/riss.js"></script>
     <script src="js/max.js."></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
     <title>Project2</title>
 </head>
 <body>
@@ -139,18 +141,18 @@
             <h5>Хочешь в интернатуру?</h5>
             <p class="conntact_p">Пиши нам!</p>
             <div class="form_contact">
-                <form action="#" name="MyForm">
+                <form id="loginform" action="" method="post">
                     <p>
-                        <input type="text" placeholder="ИМЯ" required >
+                    <input type="text" name="name" placeholder="ИМЯ"/>
                     </p>
                     <p>
-                        <input type="email" placeholder="E-MAIL" required>
+                    <input type="email" name="mail" placeholder="E-MAIL"/>
                     </p>
                     <p>
-                        <input type="tel" placeholder="НОМЕР ТЕЛЕФОНА" maxlength="10">
+                    <input type="tel" name="telephon" placeholder="НОМЕР ТЕЛЕФОНА" >
                     </p>
                     <p>
-                        <input type="submit" value="Отправить">
+                    <input type="submit" name="enter" value="Отправить" />
                     </p>
                 </form>
             </div>
@@ -169,20 +171,25 @@
             <p>
                 Поделись с друзьями
             </p>
-            <a href="#"><img src="img/facebook_button.png" alt="facebook"></a>
-            <a href="#"><img src="img/vk-share-button.png" alt="vk"></a>
+            <a href="https://www.facebook.com/BionicUniversity"><img src="img/facebook_button.png" alt="facebook"></a>
+            <a href="http://vk.com/bionicuniversity"><img src="img/vk-share-button.png" alt="vk"></a>
         </div>
     </footer>
 
 
 
-    <script>
-        $(".tab_item").not(":first").hide();
-        $(".wrapper .tab").click(function() {
-            $(".wrapper .tab").removeClass("active").eq($(this).index()).addClass("active");
-            $(".tab_item").hide().eq($(this).index()).fadeIn()
-        }).eq(0).addClass("active");
-    </script>
+
+
+    <script src="js/mafusail.js"></script>
+    <script src="js/riss.js"></script>
+    <script src="js/max.js."></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+    <script type="text/javascript" src="js/validation/jquery-1.5.2.min.js"></script>
+    <script type="text/javascript" src="js/validation/jquery.validate.min.js"></script>
+
+
 
 </body>
 </html>
