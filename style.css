@@ -17,7 +17,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    color: #45a4ff;
+    color: #0090b9;
 }
 
 .bg1 .text_na_bg1{
@@ -31,9 +31,10 @@ body{
     margin: 20px;
 }
 .bg1 .text_na_bg1 p{
-    font-size: 2rem;
+    font-size: 3rem;
     margin: 0px 30px;
     font-weight: bold;
+    /*text-shadow: white 3px 0px, white 3px 3px, white 0px 3px, white -3px 3px, white -3px 0px, white -3px -3px, white 0px -3px, white 3px -3px;}*/
 }
 
 header {
@@ -89,7 +90,7 @@ header label:hover {
     display: block;
     padding: 15px 30px;
     text-decoration: none;
-    color: #45a4ff;
+    color: #0090b9;
 }
 
 
@@ -189,7 +190,7 @@ header label:hover {
 }
 
 .block_2 p{
-    color: chocolate;
+    color: #0086b5;
     font-size: 1.5rem;
     font-weight: bold;
     line-height: 50px;
@@ -245,12 +246,12 @@ header label:hover {
 .wrapper .active {
     color: #fff;
     border-bottom: 1px solid #45a4ff;
-    background: #3276a9;
+    background: #0086b5;
 }
 
 .wrapper .tabs .tab:hover {
-    border: 1px solid #afccff;
-    background: #86c3ff;
+    /*border: 1px solid #afccff;*/
+    background: #0086b5;
 }
 
 
@@ -260,7 +261,7 @@ header label:hover {
 }
 
 .tab {
-    background: #d5eeff;
+    background: #6d6e71;
     cursor: pointer;
     border: 1px solid #ddd;
     border-radius: 3px 3px 0 0;
@@ -314,18 +315,20 @@ header label:hover {
     font-size: 2rem;
     font-weight: bold;
     margin: 10px;
+    color: #6d6e71;
 }
 
 .block_6 h5{
     font-size: 3rem;
     font-weight: bold;
     margin: 10px;
-    color: chocolate;
+    color: #0090b9;
 }
 
 
 .block_6 .contact input{
     text-align: center;
+
 }
 
 
@@ -344,6 +347,7 @@ footer{
     margin: 20px auto 50px auto;
     height: 30px;
     font-weight: bold;
+    color: #6d6e71;
 
 }
 footer .left_footer {
