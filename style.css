@@ -1,10 +1,10 @@
 body{
     padding: 0;
     margin: 0;
-    background: url(img/background.jpg);
+    /*background: url(img/background.jpg);*/
     background-size: cover;
     box-sizing: border-box;
-    font-family: "Fjalla One", sans-serif;
+    font-family: "Verdana", sans-serif;
 }
 
 
@@ -13,11 +13,12 @@ body{
 .bg1{
     height: 900px;
     width: 100%;
-    background: url(img/laptop-coffee-1940x900_35055.jpg);
+    background: url(img/laptop-coffee-1940x900_35056.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     color: #0090b9;
+
 }
 
 .bg1 .text_na_bg1{
@@ -31,7 +32,7 @@ body{
     margin: 20px;
 }
 .bg1 .text_na_bg1 p{
-    font-size: 3rem;
+    font-size: 1.5rem;
     margin: 0px 30px;
     font-weight: bold;
     /*text-shadow: white 3px 0px, white 3px 3px, white 0px 3px, white -3px 3px, white -3px 0px, white -3px -3px, white 0px -3px, white 3px -3px;}*/
@@ -46,6 +47,7 @@ header {
     right: 25px;
     top: 35px;
     background: rgba(255, 255, 255, 0.3);
+    z-index: 9999;
 }
 
 
@@ -101,7 +103,7 @@ header label:hover {
 /*Riss*/
 
 .int {
-    margin: 70px 30px;
+    margin: 70px 100px;
 }
 
 .txt {
@@ -110,7 +112,7 @@ header label:hover {
 }
 
 .txt2 {
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #0086b5;
     padding: 30 0px;
 }
@@ -191,9 +193,10 @@ header label:hover {
 
 .block_2 p{
     color: #0086b5;
+    text-align: justify;
     font-size: 1.5rem;
-    font-weight: bold;
-    line-height: 50px;
+    font-weight: lighter;
+    line-height: 40px;
 }
 
 @media (max-width: 1300px) {
@@ -228,7 +231,7 @@ header label:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 28px;
+    font-size: 1.5rem;
     font-family: Verdana, sans-serif;
     color: white;
     margin: 0 auto;
@@ -241,6 +244,7 @@ header label:hover {
     width: 70%;
     height: 300px;
     margin: 40px auto;
+    overflow: hidden;
 
 }
 .wrapper .active {
@@ -280,12 +284,16 @@ header label:hover {
 .left_colom{
     width: 48%;
     float: left;
+    text-align: justify;
     padding: 0 10px;
+    font-size: 1.5rem;
 }
 .right_colom{
     width: 48%;
     float: left;
+    text-align: justify;
     padding: 0 10px;
+    font-size: 1.5rem;
 }
 
 .clearfix{
@@ -301,7 +309,7 @@ header label:hover {
 .block_5{
     width: 100%;
     height: 900px;
-    background: blue;
+    background: white;
 }
 
 
