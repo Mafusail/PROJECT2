@@ -13,11 +13,29 @@ body{
     background-size: cover;
     box-sizing: border-box;
    
-    /*font-family: "Verdana", sans-serif;*/
+    font-family: "PF BeauSans Pro", sans-serif;
 }
 
+#go-top {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    cursor:pointer;
+    display:none;
+    width: 4rem;
+    height: 1.5rem;
+    text-align: center;
+    background: #D4B30A;
+    color: darkmagenta;
+    border-radius: 5%;
+    transition: all linear 1s;
+    padding-top: .3rem;
+}
 
-
+#go-top:hover {
+    background: #333;
+    color: #D4B30A;
+}
 
 .bg1{
     height: 900px;
