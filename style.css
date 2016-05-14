@@ -25,16 +25,17 @@ body{
     width: 4rem;
     height: 1.5rem;
     text-align: center;
-    background: #D4B30A;
-    color: darkmagenta;
-    border-radius: 5%;
-    transition: all linear 1s;
+    background: #00ade5;
+    color: #fff;
+    border-radius: 0;
+    transition: all linear 0;
     padding-top: .3rem;
 }
 
 #go-top:hover {
-    background: #333;
-    color: #D4B30A;
+    background: #fff;
+    color: #00ade5;
+    border: 1px solid #00ade5;
 }
 
 .bg1{
