@@ -12,7 +12,6 @@ body{
     /*background: url(img/background.jpg);*/
     background-size: cover;
     box-sizing: border-box;
-   
     font-family: "PF BeauSans Pro", sans-serif;
 }
 
@@ -35,7 +34,7 @@ body{
 #go-top:hover {
     background: #fff;
     color: #00ade5;
-    border: 1px solid #00ade5;
+    border: 2px solid #00ade5;
 }
 
 .bg1{
@@ -64,7 +63,7 @@ body{
 }
 .bg1 .text_na_bg1 p{
     font-size: 2.5rem;
-    margin: 0px 30px;
+    margin: 0 30px;
     font-weight: lighter;
     color: white;
     background-color:  #0090b9;
@@ -148,7 +147,7 @@ header label:hover {
 .txt2 {
     font-size: 1.5rem;
     color: white;
-    padding: 30 0px;
+    padding: 30 0;
 }
 
 .gal {
@@ -212,7 +211,7 @@ header label:hover {
 
     .bg1 .text_na_bg1 p{
         font-size: 1rem;
-        margin: 0px 20px;
+        margin: 0 20px;
     }
 }
 
@@ -381,7 +380,7 @@ header label:hover {
 .block_6 .form_bottom{
     display: inline-block;
     width: 30%;
-    font-family: 'pf_thin';
+    font-family: 'pf_thin', sans-serif;
     font-size: 20px;
     line-height: 20px;
     padding: 10px 20px 10px 20px;
