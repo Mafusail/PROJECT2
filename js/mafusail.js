@@ -1,35 +1,37 @@
-$(document).ready(function(){
+$(document).ready(function() {
+
+    /*validate form*/
 
     $("#loginform").validate({
 
-        rules:{
+        rules: {
 
-            name:{
+            name: {
                 required: true,
             },
 
-            mail:{
+            mail: {
                 email: true,
             },
 
-            telephon:{
+            telephon: {
                 digits: true,
                 minlength: 10,
                 maxlength: 10,
             },
         },
 
-        messages:{
+        messages: {
 
-            name:{
+            name: {
                 required: "Это поле обязательно для заполнения",
             },
 
-            mail:{
+            mail: {s
                 email: "Это поле обязательно для заполнения",
             },
 
-            telephon:{
+            telephon: {
                 digits: "Это поле содержит только цыфры",
                 minlength: "Пароль должен быть 10 символов",
                 maxlength: "Пароль должен быть 10 символов",
@@ -40,10 +42,33 @@ $(document).ready(function(){
     });
 
 
+    /*tabs*/
+
     $(".tab_item").not(":first").hide();
-    $(".wrapper .tab").click(function() {
+    $(".wrapper .tab").click(function () {
         $(".wrapper .tab").removeClass("active").eq($(this).index()).addClass("active");
         $(".tab_item").hide().eq($(this).index()).fadeIn()
     }).eq(0).addClass("active");
-    
+
+
+    /*плавная прокрутка*/
+
+    $("#navigation_a").on("click","a", function (event) {
+        //отменяем стандартную обработку нажатия по ссылке
+        event.preventDefault();
+
+        //забираем идентификатор бока с атрибута href
+        var id  = $(this).attr('href'),
+
+        //узнаем высоту от начала страницы до блока на который ссылается якорь
+            top = $(id).offset().top;
+
+        //анимируем переход на расстояние - top за 1500 мс
+        $('body,html').animate({scrollTop: top}, 500);
+    });
+
 });
+
+
+
+
