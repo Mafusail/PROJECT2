@@ -12,6 +12,7 @@ body{
     /*background: url(img/background.jpg);*/
     background-size: cover;
     box-sizing: border-box;
+   
     font-family: "PF BeauSans Pro", sans-serif;
 }
 
@@ -44,7 +45,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    color: #0090b9;
+    color: #00ade5;
 
 }
 
@@ -63,10 +64,10 @@ body{
 }
 .bg1 .text_na_bg1 p{
     font-size: 2.5rem;
-    margin: 0 30px;
+    margin: 0px 25px;
     font-weight: lighter;
     color: white;
-    background-color:  #0090b9;
+    background-color:  #00ade5;
     /*text-shadow: white 3px 0px, white 3px 3px, white 0px 3px, white -3px 3px, white -3px 0px, white -3px -3px, white 0px -3px, white 3px -3px;}*/
 }
 
@@ -78,14 +79,15 @@ header {
     position: fixed;
     right: 25px;
     top: 35px;
-    background: rgba(255, 255, 255, 0.3);
+    background: #00ade5;
+    /*background: rgba(255, 255, 255, 0.9);*/
     z-index: 9999;
 }
 
 
 header .logo_nav_a {
     top: 30px;
-    left: 60px;
+    left: 25px;
     position: fixed;
 }
 
@@ -98,13 +100,13 @@ header label {
     width: 30px;
     height: 30px;
     padding: 10px;
+    background:  #00ade5;
     border-right: 1px solid #fff;
     border-radius: 0 50px 50px 0;
 }
 header label:hover {
     cursor: pointer;
-    background: rgba(0, 0, 0, 0.3);
-    color: darkgray;
+    color: #fff;
 }
 
 .menu_a {
@@ -113,45 +115,56 @@ header label:hover {
     padding: 0;
     display: flex;
     justify-content: flex-end;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    color: #ffffff;
 
 }
-.menu_a .tabs_menu_a:hover {
-    background: rgba(78, 114, 194, 0.3);
-}
+
 
 .tabs_menu_a a {
     display: block;
-    padding: 15px 30px;
+    padding: 5px 10px;
     text-decoration: none;
-    color: #0090b9;
+    background: #00ade5;
+    border: 1px solid #00ade5;
+    color: #ffffff;
 }
 
 
 .tabs_menu_a a:hover {
-    color: #3276a9;
+    background: #ffffff;
+    color:  #00ade5;
+}
+/*актианая ссылка*/
+.box1111{
+    color: #D4B30A;
 }
 
 /*Riss*/
 
 .int {
     margin: 30px 100px;
+    background-color: #00ade5;
+    margin: 0px 25px;
 }
 
 .txt {
     color: white;
     text-align: center;
     font-weight: lighter;
+
 }
 
 .txt2 {
     font-size: 1.5rem;
     color: white;
-    padding: 30 0;
+    padding: 5px 0px;
+    margin: 0px 25px 0px 25px;
+    background-color: #00ade5;
 }
 
 .gal {
-    width: 30%;
+    width: 20%;
 }
 
 .info {
@@ -175,7 +188,7 @@ header label:hover {
     .fullwrap_a{
         left: 0;
     }
-    .navigation_a {
+    #navigation_a {
         position: absolute;
         background: rgba(255, 255, 255, 0.3);
         top: 50px;
@@ -192,7 +205,7 @@ header label:hover {
         border-top: 1px solid #fff;
     }
 
-    #btn_menu_a:checked ~ .navigation_a {
+    #btn_menu_a:checked ~ #navigation_a {
         left: 0;
     }
 
@@ -211,7 +224,7 @@ header label:hover {
 
     .bg1 .text_na_bg1 p{
         font-size: 1rem;
-        margin: 0 20px;
+        margin: 0px 20px;
     }
 }
 
@@ -229,7 +242,7 @@ header label:hover {
 }
 
 .block_2 p{
-    color: #0086b5;
+    color: #00ade5;
     text-align: justify;
     font-size: 1.5rem;
     font-weight: lighter;
@@ -303,7 +316,7 @@ header label:hover {
 }
 
 .tab {
-    background: #6d6e71;
+    background: #00ade5;
     cursor: pointer;
     border: 1px solid #ddd;
     border-radius: 3px 3px 0 0;
@@ -312,7 +325,7 @@ header label:hover {
     margin-bottom: -1px;
     position: relative;
     z-index: 2;
-    transition: all 1s;
+    /*transition: all 1s;*/
 }
 .tab_item{
     border: 1px solid #ddd;
@@ -368,11 +381,11 @@ header label:hover {
     font-size: 3rem;
     font-weight: bold;
     margin: 10px;
-    color: #0090b9;
+    color: #00ade5;
 }
 
 
-.block_6 .contact input{
+.block_6 .contact input {
     text-align: center;
 
 }
@@ -380,12 +393,10 @@ header label:hover {
 .block_6 .form_bottom{
     display: inline-block;
     width: 30%;
-    font-family: 'pf_thin', sans-serif;
     font-size: 20px;
     line-height: 20px;
     padding: 10px 20px 10px 20px;
     background: #00ade5;
-    border-radius: 10px;
     color: #fff;
     text-decoration: none;
     text-align: center;
@@ -398,19 +409,13 @@ header label:hover {
     color: #00ade5;
 }
 
-
-
-
-
-
-
 footer{
     width: 80%;
     position: relative;
     margin: 20px auto 50px auto;
     height: 30px;
     font-weight: bold;
-    color: #6d6e71;
+    color: #00ade5;
 
 }
 footer .left_footer {
@@ -447,3 +452,7 @@ footer .right_footer p{
         position: relative;
     }
 }
+
+
+
+
