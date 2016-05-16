@@ -162,6 +162,7 @@ header label:hover {
     padding: 5px 0px;
     margin: 0px 50px 0px 50px;
     background-color: #00ade5;
+    opacity: 0.9;
 }
 
 .gal {
