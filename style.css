@@ -71,82 +71,6 @@ body{
     background-color:  #00ade5;
 
 }
-        @media (max-width: 2535px) {
-            .bg1 .text_na_bg1 h1{
-                margin-left: 900px;
-                margin-right: 900px;
-            }
-        }
-
-        @media (max-width: 2350px) {
-            .bg1 .text_na_bg1 h1{
-                margin-left: 800px;
-                margin-right: 800px;
-            }
-        }
-
-        @media (max-width: 2160px) {
-            .bg1 .text_na_bg1 h1{
-                margin-left: 700px;
-                margin-right: 700px;
-            }
-        }
-
-        @media (max-width: 1980px) {
-            .bg1 .text_na_bg1 h1{
-                margin-left: 600px;
-                margin-right: 600px;
-            }
-        }
-
-        @media (max-width: 1755px) {
-            .bg1 .text_na_bg1 h1{
-                font-size: 4rem;
-            }
-            .bg1 .text_na_bg1 p{
-                font-size: 2rem;
-            }
-        }
-        @media (max-width: 1680px) {
-            .bg1 .text_na_bg1 h1{
-                margin-left: 550px;
-                margin-right: 550px;
-            }
-            .bg1 .text_na_bg1 p{
-                margin: 0px 550px;
-            }
-        }
-        @media (max-width: 1580px) {
-            .bg1 .text_na_bg1 h1{
-                margin-left: 450px;
-                margin-right: 450px;
-            }
-            .bg1 .text_na_bg1 p{
-                margin: 0px 450px;
-            }
-        }
-
-        @media (max-width: 1460px) {
-            .bg1 .text_na_bg1 h1{
-                margin-left: 350px;
-                margin-right: 350px;
-            }
-            .bg1 .text_na_bg1 p{
-                margin: 0px 450px;
-            }
-        }
-        
-        @media (max-width: 1340px) {
-            .bg1 .text_na_bg1 h1{
-                margin-left: 350px;
-                margin-right: 350px;
-            }
-            .bg1 .text_na_bg1 p{
-                margin: 0px 350px;
-            }
-        }
-
-
 
 header {
      margin: 0 auto;
@@ -213,7 +137,7 @@ header label:hover {
     background: #ffffff;
     color:  #00ade5;
 }
-/*актианая ссылка*/
+/*активная ссылка*/
 .box1111{
     color: #D4B30A;
 }
@@ -221,9 +145,10 @@ header label:hover {
 /*Riss*/
 
 .int {
-    margin: 0px 240px;
+    font-size: 4rem;
+    margin: 25px 240px;
     background-color: #00ade5;
-    margin-bottom: 170px;
+    margin-bottom: 15px;
 }
 
 .txt {
@@ -234,7 +159,7 @@ header label:hover {
 }
 
 .txt2 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     color: white;
     padding: 5px 0px;
     margin: 0px 170px 0px 170px;
@@ -295,16 +220,6 @@ header label:hover {
     .bg1 .text_na_bg1{
         padding: 200px 0;
     }
-
-    .bg1 .text_na_bg1 h1{
-        font-size: 3rem;
-        margin: 10px;
-    }
-
-    .bg1 .text_na_bg1 p{
-        font-size: 1rem;
-        margin: 0px 20px;
-    }
 }
 
 
@@ -340,7 +255,7 @@ header label:hover {
 
 @media (max-width: 800px) {
     .block_2{
-        width: 100%;
+        width: 80%;
         margin: 10px auto;
     }
 
@@ -350,6 +265,12 @@ header label:hover {
         font-weight: bold;
         line-height: 30px;
     }
+
+    .block_2 img{
+    width: 200px;
+    float: left;
+    margin: 2px 20px 0 0;
+}
 }
 
 
@@ -374,7 +295,7 @@ header label:hover {
 
 .block_4{
     width: 70%;
-    height: 300px;
+    height: 460px;
     margin: 40px auto;
     overflow: hidden;
 
@@ -528,15 +449,220 @@ footer .right_footer p{
     margin: 0 20px 0 0;
 }
 
-@media (max-width: 1300px) {
-    footer {
-        text-align: center;
-    }
-    footer .right_footer {
-        position: relative;
-    }
-}
+
+/*MEDIA*/
+        @media (max-width: 1300px) {
+            footer {
+                text-align: center;
+            }
+            footer .right_footer {
+                position: relative;
+            }
+        }
+
+        @media (max-width: 2535px) {
+            .bg1 .text_na_bg1 h1{
+                margin-left: 900px;
+                margin-right: 900px;
+            }
+        }
+
+        @media (max-width: 2350px) {
+            .bg1 .text_na_bg1 h1{
+                margin-left: 800px;
+                margin-right: 800px;
+            }
+        }
+
+        @media (max-width: 2160px) {
+            .bg1 .text_na_bg1 h1{
+                margin-left: 700px;
+                margin-right: 700px;
+            }
+            .int {
+                font-size: 3rem;
+            }
+            .txt2 {
+                font-size: 2rem;
+            }
+        }
+
+        @media (max-width: 1980px) {
+            .bg1 .text_na_bg1 h1{
+                margin-left: 600px;
+                margin-right: 600px;
+            }
+            .int {
+                font-size: 3rem;
+            }
+            .txt2 {
+                font-size: 1.5rem;
+            }
+        }
+
+        @media (max-width: 1755px) {
+            .bg1 .text_na_bg1 h1{
+                font-size: 4rem;
+            }
+            .bg1 .text_na_bg1 p{
+                font-size: 2rem;
+            }
+            .int {
+                font-size: 2.5rem;
+            }
+        }
 
 
+        @media (max-width: 1680px) {
+            .bg1 .text_na_bg1 h1{
+                margin-left: 550px;
+                margin-right: 550px;
+            }
+            .bg1 .text_na_bg1 p{
+                margin: 0px 550px;
+            }
+            .bg1{
+                height: 700px;
+            }
+            .txt2 {
+                font-size: 1rem;
+            }
+            .block_3 {
+                min-height: 500px;
+            }
+        }
+        @media (max-width: 1580px) {
+            .bg1 .text_na_bg1 h1{
+                margin-left: 450px;
+                margin-right: 450px;
+            }
+            .bg1 .text_na_bg1 p{
+                margin: 0px 450px;
+            }
+        }
+
+        @media (max-width: 1460px) {
+            .bg1 .text_na_bg1 h1{
+                margin-left: 350px;
+                margin-right: 350px;
+            }
+            .bg1 .text_na_bg1 p{
+                margin: 0px 450px;
+            }
+            .int {
+                font-size: 2rem;
+            }
+            .txt2 {
+                margin: 0px 110px 0px 110px;
+            }
+        }
+
+        @media (max-width: 1340px) {
+            .bg1 .text_na_bg1 h1{
+                margin-left: 350px;
+                margin-right: 350px;
+            }
+            .bg1 .text_na_bg1 p{
+                margin: 0px 350px;
+            }
+        }
+
+        @media (max-width: 1340px) {
+            .bg1 .text_na_bg1 h1{
+            font-size: 3rem;
+            margin: 10px;
+            margin-left: 350px;
+            margin-right: 350px;
+            }
+
+            .bg1 .text_na_bg1 p{
+            font-size: 1rem;
+            margin: 0px 350px;
+            }
+            .int {
+            margin: 25px 200px;
+            }
+        }
+
+        @media (max-width: 1030px) {
+            header .logo_nav_a {
+                left: 70px;
+                position: fixed;
+            }
+            .int {
+            margin: 25px 130px;
+            }
+            .txt2 {
+            margin: 0px 70px 0px 70px;
+            }
+        }
+
+        @media (max-width: 880px) {
+            .bg1 .text_na_bg1 h1{
+                margin-left: 250px;
+                margin-right: 250px;
+            }
+            .bg1 .text_na_bg1 p{
+                margin: 0px 250px;
+            }
+
+            .bg1{
+                height: 500px;
+            }
+            .int {
+            margin: 25px 70px;
+            }
+            .txt2 {
+            margin: 0px 30px 0px 30px;
+            }
+        }
+
+        @media (max-width: 700px) {
+            .bg1 .text_na_bg1 h1{
+                margin-left: 150px;
+                margin-right: 150px;
+            }
+            .bg1 .text_na_bg1 p{
+                margin: 0px 150px;
+            }
+            .bg1{
+                height: 400px;
+            }
+            .int {
+                font-size: 1.5rem;
+            }
+            .block_3 {
+                min-height: 350px;
+            }
+
+        }
+
+        @media (max-width: 585px) {
+            .bg1 .text_na_bg1 h1 {
+                margin-left: 150px;
+                margin-right: 150px;
+                margin-top: -35px;
+            }
+
+            .bg1 .text_na_bg1 p{
+                margin: 0px 50px;
+            }
+            .txt2 {
+                font-size: 0.7rem;
+            }
+
+        }
+        @media (max-width: 500px) {
+            .bg1 .text_na_bg1 h1{
+                margin-left: 50px;
+                margin-right: 50px;
+            }
+            .bg1 .text_na_bg1 p{
+                margin: 0px 50px;
+            }
+            .txt2 {
+                font-size: 0.4rem;
+            }
+        }
 
 
