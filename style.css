@@ -313,6 +313,7 @@ header label:hover {
 .tabs{
     text-align: center;
     font-weight: bold;
+    width: 100%;
 }
 
 .tab {
@@ -387,7 +388,10 @@ header label:hover {
 
 .block_6 .contact input {
     text-align: center;
-
+    width: 30%;
+    height: 50px;
+    font-size: 20px;
+    border: 1px solid #00ade5;
 }
 
 .block_6 .form_bottom{

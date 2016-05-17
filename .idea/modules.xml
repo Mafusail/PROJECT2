@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
-      <module fileurl="file://$PROJECT_DIR$/.idea/Bionic.iml" filepath="$PROJECT_DIR$/.idea/Bionic.iml" />
-=======
       <module fileurl="file://$PROJECT_DIR$/.idea/Project2.iml" filepath="$PROJECT_DIR$/.idea/Project2.iml" />
->>>>>>> 4cb34f3cb81a8aeebe8fd61c02b23a064b656516
     </modules>
   </component>
 </project>
