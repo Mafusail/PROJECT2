@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5d7c35c-ee94-49a1-b9c9-9eddf51ab564" name="Default" comment="bottom up upgrated to blue-white transition 0s, border-radius 0">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="a5d7c35c-ee94-49a1-b9c9-9eddf51ab564" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/mafusail.js" afterPath="$PROJECT_DIR$/js/mafusail.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.bxslider.css" afterPath="$PROJECT_DIR$/js/jquery.bxslider.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
     </list>
     <ignored path="Project2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.5767635">
-              <caret line="190" column="31" selection-start-line="190" selection-start-column="31" selection-end-line="190" selection-end-column="31" />
+              <caret line="190" column="22" selection-start-line="190" selection-start-column="22" selection-end-line="190" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -40,8 +40,8 @@
       <file leaf-file-name="jquery.bxslider.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/jquery.bxslider.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.4150944">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state vertical-scroll-proportion="-7.6981134">
+              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -50,8 +50,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.423077">
-              <caret line="442" column="15" selection-start-line="442" selection-start-column="15" selection-end-line="442" selection-end-column="15" />
+            <state vertical-scroll-proportion="-39.346153">
+              <caret line="438" column="0" selection-start-line="438" selection-start-column="0" selection-end-line="438" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -67,9 +67,9 @@
       <list>
         <option value="$PROJECT_DIR$/js/max.js" />
         <option value="$PROJECT_DIR$/js/mafusail.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/js/jquery.bxslider.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -229,7 +229,13 @@
       <option name="project" value="LOCAL" />
       <updated>1463222733705</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Slider autoplay">
+      <created>1463487307991</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1463487307991</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -237,10 +243,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="886" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19027779" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19027779" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34380165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45042017" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -248,7 +255,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34380165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -273,7 +279,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add botton up" />
     <MESSAGE value="bottom up upgrated to blue-white transition 0s, border-radius 0" />
-    <option name="LAST_COMMIT_MESSAGE" value="bottom up upgrated to blue-white transition 0s, border-radius 0" />
+    <MESSAGE value="Slider autoplay" />
+    <option name="LAST_COMMIT_MESSAGE" value="Slider autoplay" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -373,16 +380,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.423077">
-          <caret line="442" column="15" selection-start-line="442" selection-start-column="15" selection-end-line="442" selection-end-column="15" />
+        <state vertical-scroll-proportion="-39.346153">
+          <caret line="438" column="0" selection-start-line="438" selection-start-column="0" selection-end-line="438" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery.bxslider.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.4150944">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state vertical-scroll-proportion="-7.6981134">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -390,7 +397,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5767635">
-          <caret line="190" column="31" selection-start-line="190" selection-start-column="31" selection-end-line="190" selection-end-column="31" />
+          <caret line="190" column="22" selection-start-line="190" selection-start-column="22" selection-end-line="190" selection-end-column="22" />
           <folding />
         </state>
       </provider>
