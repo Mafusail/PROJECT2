@@ -359,6 +359,7 @@ header label:hover {
 
 
 
+
 .block_5{
     width: 100%;
     height: 900px;
@@ -465,12 +466,18 @@ footer .right_footer p{
                 margin-left: 900px;
                 margin-right: 900px;
             }
+            .tab {
+                padding: 1.8em 8em;
+            }
         }
 
         @media (max-width: 2350px) {
             .bg1 .text_na_bg1 h1{
                 margin-left: 800px;
                 margin-right: 800px;
+            }
+            .tab {
+                padding: 1.8em 7em;
             }
         }
 
@@ -485,6 +492,9 @@ footer .right_footer p{
             .txt2 {
                 font-size: 2rem;
             }
+            .tab {
+                padding: 1.8em 6em;
+            }
         }
 
         @media (max-width: 1980px) {
@@ -498,6 +508,9 @@ footer .right_footer p{
             .txt2 {
                 font-size: 1.5rem;
             }
+             .tab {
+                padding: 1.8em 5.5em;
+            }
         }
 
         @media (max-width: 1755px) {
@@ -509,6 +522,9 @@ footer .right_footer p{
             }
             .int {
                 font-size: 2.5rem;
+            }
+            .tab {
+                padding: 1.8em 5em;
             }
         }
 
@@ -586,8 +602,8 @@ footer .right_footer p{
 
         @media (max-width: 1030px) {
             header .logo_nav_a {
-                left: 70px;
-                position: fixed;
+            left: 70px;
+            position: fixed;
             }
             .int {
             margin: 25px 130px;
