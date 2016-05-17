@@ -293,22 +293,50 @@ header label:hover {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .block_4{
     width: 70%;
     height: 460px;
-    margin: 40px auto;
-    overflow: hidden;
+    margin: 60px auto;
+    /*overflow: hidden;*/
 
 }
+
+
 .wrapper .active {
-    color: #fff;
-    border-bottom: 1px solid #45a4ff;
-    background: #0086b5;
+
+    background: rgba(0, 173, 229, 0.3);
+    color: #ffffff;
+    border: 1px solid #45a4ff;
+    font-size: 2.5rem;
+    padding: 60px;
+    margin-top: -10px;
 }
+
+
+
 
 .wrapper .tabs .tab:hover {
-    /*border: 1px solid #afccff;*/
-    background: #0086b5;
+    margin-top: -25px;
+    padding: 80px 60px;
+    background: #ffffff;
+    color: #0086b5;
 }
 
 
@@ -316,22 +344,26 @@ header label:hover {
     text-align: center;
     font-weight: bold;
     width: 100%;
+    background: #d2f4ff;
+    height: 150px;
+    margin-bottom: 40px;
+
 }
 
 .tab {
-    background: #00ade5;
     cursor: pointer;
-    border: 1px solid #ddd;
+    font-size: 1.6rem;
+    border: 3px solid transparent;
     border-radius: 3px 3px 0 0;
-    padding: 0.5em 3em;
+    padding: 0 4.5rem;
     display: inline-block;
     margin-bottom: -1px;
     position: relative;
     z-index: 2;
-    /*transition: all 1s;*/
+    transition: all 0.5s;
 }
 .tab_item{
-    border: 1px solid #ddd;
+
     border-radius: 3px;
     padding: 1em 1em;
 }
@@ -340,19 +372,29 @@ header label:hover {
     float: left;
     text-align: justify;
     padding: 0 10px;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 .right_colom{
     width: 48%;
     float: left;
     text-align: justify;
     padding: 0 10px;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
-.clearfix{
-    clear: both;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -365,7 +407,6 @@ header label:hover {
     height: 900px;
     background: white;
 }
-
 
 
 .block_6 .contact{
@@ -467,7 +508,7 @@ footer .right_footer p{
                 margin-right: 900px;
             }
             .tab {
-                padding: 1.8em 8em;
+                padding: 1.8em 4.5em;
             }
         }
 
@@ -477,7 +518,7 @@ footer .right_footer p{
                 margin-right: 800px;
             }
             .tab {
-                padding: 1.8em 7em;
+                padding: 1.8em 3.5em;
             }
         }
 
@@ -493,7 +534,7 @@ footer .right_footer p{
                 font-size: 2rem;
             }
             .tab {
-                padding: 1.8em 6em;
+                padding: 1.8em 3em;
             }
         }
 
@@ -509,7 +550,7 @@ footer .right_footer p{
                 font-size: 1.5rem;
             }
              .tab {
-                padding: 1.8em 5.5em;
+                padding: 1.8em 2em;
             }
         }
 
@@ -523,9 +564,31 @@ footer .right_footer p{
             .int {
                 font-size: 2.5rem;
             }
-            .tab {
-                padding: 1.8em 5em;
+
+
+            .wrapper .active {
+                font-size: 2rem;
+                padding: 40px 60px;
+                margin-top: -10px;
             }
+            .wrapper .tabs .tab:hover {
+                padding: 40px 60px;
+            }
+            .tabs{
+                height: 125px;
+                margin-bottom: 30px;
+            }
+            .tab {
+                padding: 1.8em 4em;
+            }
+            .block_4{
+                width: 100%;
+
+            }
+
+
+
+
         }
 
 
@@ -571,6 +634,36 @@ footer .right_footer p{
             .txt2 {
                 margin: 0px 110px 0px 110px;
             }
+
+
+
+
+
+
+            .wrapper .active {
+                font-size: 1.6rem;
+                padding: 28px 50px;
+
+            }
+            .wrapper .tabs .tab:hover {
+                padding: 30px 50px;
+            }
+            .tabs{
+                height: 5.6rem;
+                margin-bottom: 30px;
+            }
+            .tab {
+                padding: 1em 3em;
+            }
+
+
+
+
+
+
+
+
+
         }
 
         @media (max-width: 1340px) {
@@ -598,6 +691,47 @@ footer .right_footer p{
             .int {
             margin: 25px 200px;
             }
+
+
+
+
+
+            .wrapper .active {
+                font-size: 26px;
+                padding: 15px 30px;
+                margin-top: -7px;
+            }
+
+
+
+
+            .wrapper .tabs .tab:hover {
+                padding: 15px 30px;
+                margin-top: -7px;
+            }
+
+
+            .tabs{
+                height: 50px;
+                margin-bottom: 30px;
+            }
+
+            .tab {
+                padding: 0em 1.9em;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
         }
 
         @media (max-width: 1030px) {
@@ -611,6 +745,16 @@ footer .right_footer p{
             .txt2 {
             margin: 0px 70px 0px 70px;
             }
+
+
+            .left_colom{
+                width: 45%;
+
+            }
+            .right_colom{
+                width: 45%;
+            }
+
         }
 
         @media (max-width: 880px) {
@@ -631,6 +775,38 @@ footer .right_footer p{
             .txt2 {
             margin: 0px 30px 0px 30px;
             }
+
+
+
+
+
+            .wrapper .active {
+                font-size: 26px;
+                padding: 15px 30px;
+                margin-top: -7px;
+            }
+            .wrapper .tabs .tab:hover {
+                padding: 15px 30px;
+                margin-top: -7px;
+            }
+            .tabs{
+                height: 50px;
+                margin-bottom: 30px;
+            }
+
+            .tab {
+                padding: 0em 1em;
+            }
+
+
+
+
+
+
+
+
+
+
         }
 
         @media (max-width: 700px) {
@@ -651,6 +827,37 @@ footer .right_footer p{
                 min-height: 350px;
             }
 
+
+            .left_colom{
+                width: 100%;
+
+            }
+            .right_colom{
+                width: 100%;
+            }
+
+            .wrapper .active {
+                font-size: 26px;
+                padding: 5px;
+                margin-top: 0px;
+            }
+            .wrapper .tabs .tab:hover {
+                padding: 5px;
+                margin-top: 0px;
+            }
+            .tabs{
+                height: 40px;
+                margin-bottom: 30px;
+            }
+
+            .tab {
+                padding: 0em 0.5em;
+            }
+
+
+
+
+
         }
 
         @media (max-width: 585px) {
@@ -667,6 +874,16 @@ footer .right_footer p{
                 font-size: 0.7rem;
             }
 
+            .tabs{
+                height: 80px;
+                margin-bottom: 20px;
+            }
+
+            .tab {
+                padding: 0em 1.5em;
+            }
+
+
         }
         @media (max-width: 500px) {
             .bg1 .text_na_bg1 h1{
@@ -679,6 +896,19 @@ footer .right_footer p{
             .txt2 {
                 font-size: 0.4rem;
             }
+
+
+
+            .tabs{
+                height: 120px;
+                margin-bottom: 10px;
+            }
+
+            .tab {
+                padding: 0em 1em;
+            }
+
+
         }
 
 
