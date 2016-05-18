@@ -123,11 +123,11 @@
     </section>
     <!-- slider -->
     <section class="block_5" id="box4_a">
-        <div class="slider2">
-            <div class="slide"><img src="img/slide1.jpg"></div>
-            <div class="slide"><img src="img/slide2.jpg"></div>
-            <div class="slide"><img src="img/slide3.jpg"></div>
-        </div>
+        <ul class="bxslider">
+            <li class="slide"><img src="img/slide1.jpg"></li>
+            <li class="slide"><img src="img/slide2.jpg"></li>
+            <li class="slide"><img src="img/slide3.jpg"></li>
+        </ul>
 
     </section>
 
@@ -188,11 +188,13 @@
 
 <script>
     $(document).ready(function(){
-        $('.slider2').bxSlider({
+        $('.bxslider').bxSlider({
 // не задаём slideWidth: if no slideWidth is supplied, the slider will expand each slide to 100% width of the container.
             minSlides: 1,
             maxSlides: 1,
             slideMargin: 0,
+            adaptiveHeight: true,
+            mode: 'fade',
             loop: true, // зацикливание прокрутки слайдов
             auto: true, // слайды автоматически начинают прокручиваться
             autoControls: false // прячем кнопочки управления прокруткой (неуместны)
