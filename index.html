@@ -9,10 +9,8 @@
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
 
     <!-- slider bx -->
-    <link href="js/jquery.bxslider.css" rel="stylesheet">
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-
+    <link href="js/jquery.bxslider.css" rel="stylesheet">
     <title>Bionic</title>
 </head>
 
@@ -123,6 +121,10 @@
     </section>
     <!-- slider -->
     <section class="block_5" id="box4_a">
+        <div class="bx-controls-direction">
+            <a class="bx-prev" href="">Prev</a>
+            <a class="bx-next" href="">Next</a>
+        </div>
         <ul class="bxslider">
             <li class="slide"><img src="img/slide1.jpg"></li>
             <li class="slide"><img src="img/slide2.jpg"></li>
@@ -193,8 +195,6 @@
             minSlides: 1,
             maxSlides: 1,
             slideMargin: 0,
-            adaptiveHeight: true,
-            mode: 'fade',
             loop: true, // зацикливание прокрутки слайдов
             auto: true, // слайды автоматически начинают прокручиваться
             autoControls: false // прячем кнопочки управления прокруткой (неуместны)
