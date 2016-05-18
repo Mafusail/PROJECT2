@@ -28,7 +28,7 @@ body{
     background: #00ade5;
     color: #fff;
     border-radius: 0;
-    transition: all linear 0;
+    transition: all linear 0ms;
     padding-top: .3rem;
 }
 
@@ -408,6 +408,9 @@ header label:hover {
     background: white;
 }
 
+#box5_a {
+    margin-top: 10%;
+}
 
 .block_6 .contact{
     margin: 30px auto;

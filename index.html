@@ -189,10 +189,13 @@
 <script>
     $(document).ready(function(){
         $('.slider2').bxSlider({
-            slideWidth: 1200,
+// не задаём slideWidth: if no slideWidth is supplied, the slider will expand each slide to 100% width of the container.
             minSlides: 1,
             maxSlides: 1,
-            slideMargin: 0
+            slideMargin: 0,
+            loop: true, // зацикливание прокрутки слайдов
+            auto: true, // слайды автоматически начинают прокручиваться
+            autoControls: false // прячем кнопочки управления прокруткой (неуместны)
         });
     });
 </script>
