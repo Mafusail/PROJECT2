@@ -312,7 +312,7 @@ header label:hover {
 
 .block_4{
     width: 70%;
-    height: 460px;
+    /*height: 460px;*/
     margin: 60px auto;
     /*overflow: hidden;*/
 
@@ -482,6 +482,7 @@ header label:hover {
 
 
 label.error.active{
+    width: 300px;
     position: absolute;
     font-size: 1.2rem;
     color: #ffffff;
@@ -491,12 +492,12 @@ label.error.active{
     padding: 40px;
     background: #373737;
     transition: all 0.5s;
+
 }
 
 
 label.error{
     position: absolute;
-    right: -6000px;
     display: none;
     color: #ffffff;
 }
@@ -719,12 +720,7 @@ footer .right_footer p{
             }
 
 
-            label.error{
-                position: absolute;
-                right: -6000px;
-                display: none;
-                color: #ffffff;
-            }
+
 
             .block_6 .contact input {
                 width: 30%;
@@ -868,6 +864,31 @@ footer .right_footer p{
             .right_colom{
                 width: 45%;
             }
+
+
+
+            label.error.active{
+                width: 200px;
+                font-size: 1rem;
+                right: 15px;
+                top:85px;
+
+            }
+
+
+            .block_6 .contact input {
+                width: 30%;
+                font-size: 18px;
+            }
+
+            .block_6 .form_bottom{
+                width: 20%!important;
+                height: 50px;
+                font-size: 18px;
+                margin: 5px;
+            }
+
+
 
         }
 
@@ -1113,6 +1134,15 @@ footer .right_footer p{
             }
 
 
+
+            #go-top {
+                right: 80px;
+            }
+
+
+
+
+
         }
 
 
@@ -1125,10 +1155,10 @@ footer .right_footer p{
 
 }
 
-@media (max-width: 300px) {
+@media (max-width: 320px) {
 
     label.error.active{
-        right: 2%;
+        right: 11%;
     }
 
 }
@@ -1136,3 +1166,35 @@ footer .right_footer p{
 .clearfix{
     clear: both;
 }
+
+
+
+
+
+
+
+
+
+
+a.bx-prev{
+    color: #ffffff;
+}
+a.bx-next{
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
