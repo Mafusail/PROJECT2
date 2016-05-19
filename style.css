@@ -409,8 +409,20 @@ header label:hover {
 }
 
 #box5_a {
-    margin-top: 10%;
+    margin-top: 5%;
+    position: relative;
 }
+
+
+
+
+
+.block_6{
+    position: relative;
+    margin: 0;
+}
+
+
 
 .block_6 .contact{
     margin: 30px auto;
@@ -434,18 +446,20 @@ header label:hover {
 
 .block_6 .contact input {
     text-align: center;
-    width: 30%;
-    height: 50px;
+    width: 20%;
     font-size: 20px;
+    padding: 10px 20px 10px 20px;
     border: 1px solid #00ade5;
 }
 
 .block_6 .form_bottom{
     display: inline-block;
-    width: 30%;
+    width: 15%!important;
+    height: 60px;
     font-size: 20px;
     line-height: 20px;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 0px;
+    margin: 10px;
     background: #00ade5;
     color: #fff;
     text-decoration: none;
@@ -458,6 +472,40 @@ header label:hover {
     background: #fff;
     color: #00ade5;
 }
+
+
+
+.loginform{
+    position: relative;
+}
+
+
+
+label.error.active{
+    position: absolute;
+    font-size: 1.2rem;
+    color: #ffffff;
+    right: 30px;
+    top: 45px;
+    margin: 40px;
+    padding: 40px;
+    background: #373737;
+    transition: all 0.5s;
+}
+
+
+label.error{
+    position: absolute;
+    right: -6000px;
+    display: none;
+    color: #ffffff;
+}
+
+
+
+
+
+
 
 footer{
     width: 80%;
@@ -568,7 +616,6 @@ footer .right_footer p{
                 font-size: 2.5rem;
             }
 
-
             .wrapper .active {
                 font-size: 2rem;
                 padding: 40px 60px;
@@ -663,6 +710,46 @@ footer .right_footer p{
 
 
 
+            label.error.active{
+                font-size: 1.2rem;
+                right: 20px;
+                top: 45px;
+                margin: 20px;
+                padding: 20px;
+            }
+
+
+            label.error{
+                position: absolute;
+                right: -6000px;
+                display: none;
+                color: #ffffff;
+            }
+
+            .block_6 .contact input {
+                width: 30%;
+                font-size: 18px;
+            }
+
+            .block_6 .form_bottom{
+                width: 20%!important;
+                height: 50px;
+                font-size: 18px;
+                margin: 5px;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -726,6 +813,30 @@ footer .right_footer p{
 
 
 
+
+
+
+
+            label.error.active{
+                font-size: 1.2rem;
+                right: 10px;
+                top: 85px;
+                margin: 10px;
+                padding: 10px;
+            }
+
+
+            .block_6 .contact input {
+                width: 22%;
+                font-size: 18px;
+            }
+
+            .block_6 .form_bottom{
+                width: 20%!important;
+                height: 50px;
+                font-size: 18px;
+                margin: 5px;
+            }
 
 
 
@@ -810,6 +921,59 @@ footer .right_footer p{
 
 
 
+            label.error.active{
+                font-size: 1rem;
+                right: 5px;
+                top: 100px;
+                margin: 10px;
+                padding: 10px;
+            }
+
+
+            .block_6 .contact input {
+                width: 20%;
+                font-size: 18px;
+            }
+
+            .block_6 .form_bottom{
+                width: 15%!important;
+                height: 50px;
+                font-size: 10px;
+                padding: 0!important;
+                margin: 5px auto;
+            }
+
+
+            .block_6 h5{
+                text-align: center;
+            }
+
+            .adapt_form{
+                margin-left: -35%!important;
+            }
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+
+
         }
 
         @media (max-width: 700px) {
@@ -887,6 +1051,43 @@ footer .right_footer p{
             }
 
 
+
+
+
+
+
+            label.error.active{
+                font-size: 1rem;
+                right: 25%;
+                top: 100%;
+                margin: 10px;
+                padding: 10px;
+            }
+
+
+            .block_6 .contact input {
+                width: 60%;
+                font-size: 18px;
+            }
+
+            .block_6 .form_bottom{
+                width: 50%!important;
+                height: 50px;
+                font-size: 10px;
+                padding: 0!important;
+                margin: 5px auto;
+            }
+
+
+            .block_6 h5{
+                text-align: center;
+            }
+
+            .adapt_form{
+                margin: 0px auto!important;
+            }
+
+
         }
         @media (max-width: 500px) {
             .bg1 .text_na_bg1 h1{
@@ -915,3 +1116,23 @@ footer .right_footer p{
         }
 
 
+
+@media (max-width: 450px) {
+
+    label.error.active{
+        right: 21%;
+    }
+
+}
+
+@media (max-width: 300px) {
+
+    label.error.active{
+        right: 2%;
+    }
+
+}
+
+.clearfix{
+    clear: both;
+}

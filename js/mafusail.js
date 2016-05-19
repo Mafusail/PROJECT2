@@ -12,6 +12,7 @@ $(document).ready(function() {
 
             mail: {
                 email: true,
+                required: true,
             },
 
             telephon: {
@@ -24,15 +25,16 @@ $(document).ready(function() {
         messages: {
 
             name: {
-                required: "Это поле обязательно для заполнения",
+                required: "Поле 'Имя' <br>обязательно для заполнения",
             },
 
             mail: {
-                email: "Это поле обязательно для заполнения",
+                email: "В e-mail адресе должен <br> присудстовать символ '@'! <br> Примере: UNIVERSITY@BIONIC-UNIVERSITY.COM",
+                required: "Поле для e-mail обязательно для заполнения",
             },
 
             telephon: {
-                digits: "Это поле содержит только цифры",
+                digits: "Это поле содержит только цифры <br> Пример:  0443613450",
                 minlength: "Пароль должен быть 10 символов",
                 maxlength: "Пароль должен быть 10 символов",
             },
@@ -40,6 +42,7 @@ $(document).ready(function() {
         }
 
     });
+
 
 
     /*tabs*/
