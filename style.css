@@ -934,14 +934,6 @@ footer .right_footer p{
             }
 
 
-
-
-
-
-
-
-
-
             label.error.active{
                 font-size: 1rem;
                 right: 5px;
@@ -973,27 +965,7 @@ footer .right_footer p{
                 margin-left: -35%!important;
             }
             
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-
+        
 
         }
 
@@ -1041,11 +1013,17 @@ footer .right_footer p{
             .tab {
                 padding: 0em 0.5em;
             }
-
-
-
-
-
+            
+            .info {
+                width: 100%;
+                float: left;
+                padding: 20px;
+            }
+            .txt2 {
+                margin: 0px 80px 0px 67px;
+            }
+            .tab_item {
+                padding: 0 5px 0 5px;
         }
 
         @media (max-width: 585px) {
@@ -1136,7 +1114,8 @@ footer .right_footer p{
 
 
             #go-top {
-                right: 80px;
+                right: 20px;
+                bottom: 120px;
             }
 
 
