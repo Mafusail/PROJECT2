@@ -1013,7 +1013,7 @@ footer .right_footer p{
             .tab {
                 padding: 0em 0.5em;
             }
-            
+
             .info {
                 width: 100%;
                 float: left;
@@ -1024,6 +1024,11 @@ footer .right_footer p{
             }
             .tab_item {
                 padding: 0 5px 0 5px;
+            }
+
+            .cotial {
+                color: white;
+            }
         }
 
         @media (max-width: 585px) {
@@ -1048,12 +1053,6 @@ footer .right_footer p{
             .tab {
                 padding: 0em 1.5em;
             }
-
-
-
-
-
-
 
             label.error.active{
                 font-size: 1rem;
@@ -1085,7 +1084,7 @@ footer .right_footer p{
             .adapt_form{
                 margin: 0px auto!important;
             }
-
+            
 
         }
         @media (max-width: 500px) {
