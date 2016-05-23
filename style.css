@@ -248,7 +248,7 @@ header label:hover {
 @media (max-width: 1300px) {
     .block_2 p{
         font-size: 1rem;
-        font-weight: bold;
+        font-weight: normal;
         line-height: 30px;
     }
 }
